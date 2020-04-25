@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+{% load static %}
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="{% static "styles.css" %}">
+</head>
+
+<body class="linked_in_body">
+<center>
+  <h2>Linkedin Login Form</h2>
+</center>
+<form action="" method="GET">
+  {% csrf_token %}
+  <div class="imgcontainer">
+    
+    <img src="{% static "LinkedIn_logo_initials.png" %}" width="20" height="100" alt="Instagram" class="avatar">
+  </div>
+<center>
+  <div class="container">
+    <label for="uname"><b>Username</b></label><br>
+    <input type="text" placeholder="Enter Username" name="uname" required><br><br>
+
+    <label for="psw"><b>Password</b></label><br>
+    <input type="password" placeholder="Enter Password" name="psw" required><br>
+
+    <label for="Hashtag"><b>Tag</b></label><br>
+    <input type="text" placeholder="Enter Hashtag" name="Hashtag" required><br>
+
+    <button type="submit">Login</button>
+  </div>
+</center>
+</form>
+
+</body>
+</html>

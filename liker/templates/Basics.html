@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+{% load static %}
+<html>
+      <head>
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <title>LikerBot</title>
+            <link rel="stylesheet" href="{% static "styles.css" %}">
+       </head>
+       <body class="main_body" >
+   <center>
+   <h1  class="heading1"> LikerBot</h1></center>
+   <center><h1 class="heading2"><b><i>LikerBot helps you to autolike on given hashtag on <br>LinkedIn Instagram and Twitter<br>Click On any Image</i></b></h1></center>
+   <br><br>
+
+<div class="text_division">
+      <p class="Linked_in_text">LinkedIn</p>
+      <p class="Instagram_text">Instagram</p>
+      <p class="Twitter_text">Twitter</p>
+</div>
+   <br>
+   <div class="division">
+      <a href="LinkedIn.html"><img src="{% static "LinkedIn_logo_initials.png" %}" alt="Linked_in"class="Linked_in_img" height="200" width="200"></a>
+      <a href="instagram/"><img src="{% static "instagram.png" %}" alt="Instagram"class="Instagram_img"></a>
+      <a href="Twitter.html"><img src="{% static "twitter.png" %}" alt="twitter" class="twitter_img"></a>
+</div>
+   </body>
+</html>

@@ -1,0 +1,172 @@
+.main_body{
+    background: #EC6F66;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #F3A183, #EC6F66);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #F3A183, #EC6F66); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */}
+
+    /* LikerBOT heading */
+.heading1{     
+  font-style: italic;
+  font-weight: bold;
+  font-size: 50px;
+  color: tomato;
+}
+/* Likerbot message heading content */
+.heading2{
+  color: #4D1E1E;
+  font-size: 30px;
+}
+/* linked in image class */
+.Linked_in_img{
+  padding-left: 3%;
+ 
+}
+
+/* Instagram image class */
+
+.Instagram_img{
+  height: 200px;
+  width: 200px;
+  padding-left: 25%;
+}
+/* Twitter image class */
+.twitter_img{
+
+  height: 180px;
+  width: 180px;
+padding-left: 25%
+}
+/*Division for text of instagram linkedIN and twitter */
+.text_division{
+  display: flex;
+  }
+/* LinkedIn text style basic.html */
+.Linked_in_text{
+  color: #4D1E1E;
+  padding-left: 4%;
+  font-size: 30px;
+  font-style: italic;
+  font-weight: bold;
+  color: #4D1E1E;
+}
+
+/* Instagram text style basic.html */
+
+.Instagram_text{
+  color: #4D1E1E;
+  padding-left: 30%;
+  text-align: center;
+  font-size: 30px;
+  font-style: italic;
+  font-weight: bold;
+  color: #4D1E1E;
+
+}
+
+/* Twitter text style basic.html */
+.Twitter_text{
+  color: #4D1E1E;
+  padding-left: 30%;
+  font-size: 30px;
+  font-style: italic;
+  font-weight: bold;
+  color: #4D1E1E;
+}
+
+
+body {font-family: Arial, Helvetica, sans-serif;}
+
+/* Main pages content of instagram, twitter and linked in */
+input[type=text], input[type=password] {
+  width: 400px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+/* Button for instagram */
+.button_insta{
+  background: #DA22FF;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #9733EE, #DA22FF);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #9733EE, #DA22FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  border-radius: 15%;    
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100px;
+  height: 50px;
+}
+
+/* Button for linked and twitter */
+button {
+  background: #396afc;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #2948ff, #396afc);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #2948ff, #396afc); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  border-radius: 15%;    
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100px;
+  height: 50px;
+}
+
+/* Button hover opacity */
+button:hover {
+  opacity: 0.7;
+}
+/* container of image on  any social sites */
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+/* Image width height of image container */
+img.avatar {
+  width: 8%;
+  height: 30%;
+  border-radius :10%;
+}
+/* container of input field  */
+.container {
+  padding: 16px;
+  text-align: center;
+}
+
+
+
+/* Change  cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  .cancelbtn {
+    width: 100%;
+  }
+}
+
+/* Twitter.html body color */
+.Twitter_body{
+background: #4776E6;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #8E54E9, #4776E6);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #8E54E9, #4776E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+/* Instagram.html body color */
+
+.Instagram_body{background: #3A1C71;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #FFAF7B, #D76D77, #3A1C71);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #FFAF7B, #D76D77, #3A1C71); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+/*main body background color */
+.main_body{background: #ECE9E6;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+/* Linked in body background color  */
+.linked_in_body{
+  background: #457fca;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #5691c8, #457fca);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #5691c8, #457fca); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+

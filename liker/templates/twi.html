@@ -1,0 +1,32 @@
+{%  load static %}
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="{% static "style.css" %}">
+</head>
+
+<body class="bodies">
+<center><h2>Twitter Login Form</h2></center>
+<form action="" method="">
+  <div class="imgcontainer">
+    <img src="{% static "twitter.png" %}" width="20" height="100" alt="Twitter" class="avatar">
+  </div>
+<center>
+    <div class="container">
+    <label for="uname"><b>Username</b></label><br>
+
+    <input type="text" placeholder="Enter Username" name="uname" required><br><br>
+    <label for="psw"><b>Password</b></label><br>
+
+
+    <input type="password" placeholder="Enter Password" name="psw" required><br>
+    <label for="Hashtag"><b>Hashtag</b></label><br>
+    <input type="text" placeholder="Enter Hashtag" name="High" required><br>
+
+    <button type="submit">Login</button>
+    </div>
+   </center>
+</form>
+</body>
+</html>
